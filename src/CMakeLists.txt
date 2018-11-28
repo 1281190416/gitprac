@@ -1,0 +1,2 @@
+SET(SRC_FILES hello.c)
+ADD_EXECUTABLE(gitprac ${SRC_FILES})
