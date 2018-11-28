@@ -6,7 +6,13 @@
  ************************************************************************/
 
 #include<stdio.h>
+
+int func(int a)
+{
+	return a + 1;
+}
+
 int main({
-		printf("git practice\n");
+		printf("git practice %d\n", func(8));
 		return 1;
 		})
